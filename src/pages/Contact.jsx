@@ -25,7 +25,7 @@ function Contact() {
         <>
             <SectionLayout id="contact">
                 <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
-                    <div>
+                    <div data-aos="fade-up" delay={100}>
                         <p className="text-xs uppercase tracking-[0.3em] text-white/50">
                             Contact
                         </p>
@@ -36,7 +36,10 @@ function Contact() {
                             Share a few details and I will respond immediately.
                         </p>
                     </div>
-                    <div ref={ctaRef} className="frame space-y-4">
+                    <div ref={ctaRef} className="frame space-y-4"
+                        data-aos="fade-up"
+                        data-aos-delay={200}
+                    >
                         <a
                             href="mailto:darbenlamonte@gmail.com"
                             className="block w-full rounded-xl bg-[var(--accent-500)] px-5 py-3 text-center text-sm font-semibold text-white transition hover:bg-[var(--accent-600)]"

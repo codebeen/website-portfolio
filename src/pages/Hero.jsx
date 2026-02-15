@@ -1,5 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 import avatar from "../assets/avatar.png";
+import { Link } from "react-router-dom";
 
 function Home () {
     return (
@@ -58,18 +59,22 @@ function Home () {
                         </p>
                         <div className="mt-10 flex items-center justify-between">
                             <div className=" hidden sm:flex flex-wrap items-center gap-4">
-                                <a
-                                    href="#projects"
+                                <Link
+                                    to="/projects"
+                                    data-aos="fade-up"
+                                    data-aos-delay={100}
                                     className="inline-flex items-center gap-2 rounded-full bg-[var(--accent-500)] px-5 py-3 text-md font-semibold text-white shadow-sm transition hover:bg-[var(--accent-600)]"
                                 >
                                     View work
-                                </a>
-                                <a
-                                    href="#contact"
+                                </Link>
+                                <Link
+                                    to="/contact"
+                                    data-aos="fade-up"
+                                    data-aos-delay={200}
                                     className="inline-flex items-center gap-2 rounded-full border border-white/20 px-5 py-3 text-md font-semibold text-white/80 transition hover:border-white/40 hover:text-white"
                                 >
                                     Start a project
-                                </a>
+                                </Link>
                             </div>
                             <div class="flex lg:ml-auto items-center gap-2 md:gap-3 lg:border-l lg:border-white/10 lg:pl-8">
                                 <a
@@ -78,6 +83,8 @@ function Home () {
                                     rel="noopener noreferrer"
                                     class="flex h-12 w-12 md:h-14 md:w-14 items-center justify-center rounded-lg bg-[#24292e] transition-all hover:scale-105"
                                     aria-label="GitHub profile"
+                                    data-aos="fade-up"
+                                    data-aos-delay={300}
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -100,6 +107,8 @@ function Home () {
                                     rel="noopener noreferrer"
                                     class="flex h-12 w-12 md:h-14 md:w-14 items-center justify-center rounded-lg bg-[#0A66C2] transition-all hover:scale-105"
                                     aria-label="LinkedIn profile"
+                                    data-aos="fade-up"
+                                    data-aos-delay={400}
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -126,6 +135,8 @@ function Home () {
                                     rel="noopener noreferrer"
                                     class="flex h-12 w-12 md:h-14 md:w-14 items-center justify-center rounded-lg bg-[#5865F2] transition-all hover:scale-105"
                                     aria-label="Send email"
+                                    data-aos="fade-up"
+                                    data-aos-delay={500}
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -149,6 +160,8 @@ function Home () {
                                     rel="noopener noreferrer"
                                     class="flex h-12 w-12 md:h-14 md:w-14 items-center justify-center rounded-lg bg-linear-to-br from-blue-500 to-purple-500 transition-all hover:scale-105"
                                     aria-label="View CV"
+                                    data-aos="fade-up"
+                                    data-aos-delay={600}
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"

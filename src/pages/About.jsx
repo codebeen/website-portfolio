@@ -32,15 +32,22 @@ function About() {
 
                     <div className="space-y-6">
                         <div>
-                            <h2 className="font-display text-4xl text-white">
+                            <h2 className="font-display text-4xl text-white"
+                                data-aos="fade-up"
+                                data-aos-delay={100}
+                            >
                                 Hi, I'm Darben <span className="wave">👋</span>
                             </h2>
-                            <p className="mt-2 text-lg text-violet-400">
+                            <p className="mt-2 text-lg text-violet-400"
+                                data-aos="fade-up"
+                                data-aos-delay={200}>
                                 Full Stack Developer & Backend Specialist
                             </p>
                         </div>
 
-                        <p className="text-base leading-relaxed text-white/70">
+                        <p className="text-base leading-relaxed text-white/70"
+                            data-aos="fade-up"
+                            data-aos-delay={300}>
                             I am an aspiring Software Engineer passionate about
                             building secure, scalable, and user-centered web
                             applications. I enjoy transforming complex problems
@@ -48,7 +55,9 @@ function About() {
                             system architecture and well-structured code.
                         </p>
 
-                        <p className="text-base leading-relaxed text-white/70">
+                        <p className="text-base leading-relaxed text-white/70"
+                            data-aos="fade-up"
+                            data-aos-delay={400}>
                             My focus is on full-stack and API development,
                             particularly within microservices-based systems. I
                             have hands-on experience with Django, ASP.NET, and
@@ -57,7 +66,9 @@ function About() {
                             seamless user experiences.
                         </p>
 
-                        <p className="text-base leading-relaxed text-white/70">
+                        <p className="text-base leading-relaxed text-white/70"
+                            data-aos="fade-up"
+                            data-aos-delay={500}>
                             I thrive in collaborative environments where
                             continuous learning, innovation, and teamwork drive
                             meaningful impact. Beyond coding, I actively explore
@@ -74,6 +85,8 @@ function About() {
                                 rel="noopener noreferrer"
                                 className="flex h-12 w-12 items-center justify-center rounded-lg bg-[#24292e] transition-all hover:scale-105"
                                 aria-label="GitHub profile"
+                                data-aos="fade-up"
+                                data-aos-delay={600}
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -96,6 +109,8 @@ function About() {
                                 rel="noopener noreferrer"
                                 className="flex h-12 w-12 items-center justify-center rounded-lg bg-[#0A66C2] transition-all hover:scale-105"
                                 aria-label="LinkedIn profile"
+                                data-aos="fade-up"
+                                data-aos-delay={700}
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -120,6 +135,8 @@ function About() {
                                 href="mailto:darbenlamonte@gmail.com"
                                 className="flex h-12 w-12 items-center justify-center rounded-lg bg-[#5865F2] transition-all hover:scale-105"
                                 aria-label="Send email"
+                                data-aos="fade-up"
+                                data-aos-delay={800}
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -143,6 +160,8 @@ function About() {
                                 rel="noopener noreferrer"
                                 className="flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-br from-blue-500 to-purple-500 transition-all hover:scale-105"
                                 aria-label="View CV"
+                                data-aos="fade up"
+                                data-aos-delay={900}
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"

@@ -57,8 +57,8 @@ function Projects() {
                 }
             >
                 <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                    {projects.slice(0, 3).map((project) => (
-                        <ProjectCard key={project.title} project={project} />
+                    {projects.slice(0, 3).map((project, index) => (
+                        <ProjectCard key={project.title} project={project} delay={200 * (index + 1)} />
                     ))}
                 </div>
             </SectionLayout>
