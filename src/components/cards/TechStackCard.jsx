@@ -1,7 +1,7 @@
 import * as SiIcons from "react-icons/si";
 import * as FaIcons from "react-icons/fa";
 
-function TechStackCard({ stack }) {
+function TechStackCard({ stack, delay = 200 }) {
     const iconSets = {
         si: SiIcons,
         fa: FaIcons,
@@ -14,6 +14,7 @@ function TechStackCard({ stack }) {
         <div
             className="group relative rounded-lg"
             data-aos="fade-up"
+            data-aos-delay={delay}
         >
             <div className="pointer-events-none absolute -inset-px hidden rounded-[inherit] border transition-opacity opacity-100" />
             <div

@@ -49,8 +49,8 @@ function Skills() {
                 </div>
 
                 <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3">
-                    {filteredStacks.map((stack) => (
-                        <TechStackCard key={stack.name} stack={stack} />
+                    {filteredStacks.map((stack, index) => (
+                        <TechStackCard key={stack.name} stack={stack} delay={50 * (index + 1)} />
                     ))}
                 </div>
             </SectionLayout>
