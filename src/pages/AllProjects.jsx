@@ -92,16 +92,7 @@ function AllProjects() {
     };
 
     useEffect(() => {
-        const target = document.getElementById("projects");
-        const scrollToTarget = () => {
-            if (target) {
-                target.scrollIntoView({ behavior: "smooth", block: "start" });
-            } else {
-                window.scrollTo({ top: 0, behavior: "smooth" });
-            }
-        };
-
-        requestAnimationFrame(scrollToTarget);
+        window.scrollTo({ top: 0, behavior: "smooth" });
     }, [currentPage]);
 
     return (
