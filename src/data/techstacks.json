@@ -1,0 +1,113 @@
+[
+    {
+        "category": "framework",
+        "name": "Django",
+        "icon": "SiDjango",
+        "color": "#092E20",
+        "glowStart": 253.81835823689212
+    },
+    {
+        "category": "framework",
+        "name": "ASP.Net",
+        "icon": "SiDotnet",
+        "color": "#512BD4",
+        "glowStart": 120.0
+    },
+    {
+        "category": "framework",
+        "name": "Laravel",
+        "icon": "SiLaravel",
+        "color": "#FF2D20",
+        "glowStart": 253.81835823689212
+    },
+    {
+        "category": "framework",
+        "name": "React.js",
+        "icon": "SiReact",
+        "color": "#61DAFB",
+        "glowStart": -266.47472444943764
+    },
+    {
+        "category": "framework",
+        "name": "Tailwind CSS",
+        "icon": "SiTailwindcss",
+        "color": "#06B6D4",
+        "glowStart": 52.77786857893223
+    },
+    {
+        "category": "language",
+        "name": "C#",
+        "icon": "SiDotnet",
+        "iconSet": "si",
+        "color": "#512BD4"
+    },
+    {
+        "category": "language",
+        "name": "Python",
+        "icon": "SiPython",
+        "color": "#3776AB",
+        "glowStart": -95.18805577039889
+    },
+    {
+        "category": "language",
+        "name": "Javascript",
+        "icon": "SiJavascript",
+        "color": "#F7DF1E",
+        "glowStart": -80.0
+    },
+    {
+        "category": "database",
+        "name": "MySQL",
+        "icon": "SiMysql",
+        "color": "#4479A1",
+        "glowStart": 44.72081324612458
+    },
+    {
+        "category": "database",
+        "name": "MSSQL",
+        "icon": "FaServer",
+        "iconSet": "fa",
+        "color": "#CC2927",
+        "glowStart": 44.72081324612458
+    },
+    {
+        "category": "database",
+        "name": "PostgreSQL",
+        "icon": "SiPostgresql",
+        "color": "#4169E1",
+        "glowStart": 33.69392894796562
+    },
+    {
+        "category": "tools",
+        "name": "Docker",
+        "icon": "SiDocker",
+        "color": "#2496ED",
+        "glowStart": -52.12111150466926
+    },
+    {
+        "category": "tools",
+        "name": "Hostinger VPS",
+        "icon": "SiHostinger",
+        "color": "#673DE6",
+        "glowStart": -24.64731310023314
+    },
+    {
+        "category": "tools",
+        "name": "Git",
+        "icon": "SiGit",
+        "color": "#F05032",
+        "glowStart": -33.897802630289064
+    },
+    {
+        "category": "tools",
+        "name": "Github",
+        "icon": "SiGithub",
+        "color": "#FFFFFF"
+    },
+    {
+        "category": "tools",
+        "name": "Jira",
+        "icon": "SiJira",
+        "color": "#0052CC"
+    }
+]

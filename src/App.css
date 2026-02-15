@@ -1,0 +1,91 @@
+.frame {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  background: rgba(8, 7, 16, 0.75);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  padding: 24px;
+}
+
+.reveal {
+  animation: fade-up 700ms ease both;
+}
+
+.reveal-delay-1 {
+  animation: fade-up 800ms ease both;
+  animation-delay: 140ms;
+}
+
+.timeline-wrap {
+  position: relative;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 2rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.timeline-line::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.timeline-line::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: calc(var(--timeline-progress, 0) * 100%);
+  background: linear-gradient(180deg, rgba(59, 130, 246, 0.9), rgba(168, 85, 247, 0.7));
+  box-shadow: 0 0 12px rgba(124, 58, 237, 0.6);
+}
+
+.timeline-trace {
+  position: absolute;
+  left: 50%;
+  top: calc(var(--timeline-progress, 0) * 100%);
+  width: 12px;
+  height: 12px;
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.9) 0%, rgba(124, 58, 237, 0.8) 35%, rgba(124, 58, 237, 0) 70%);
+  filter: drop-shadow(0 0 12px rgba(124, 58, 237, 0.75));
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fadeInUp {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+select optgroup {
+  background-color: #0b0a16;
+  color: #ffffff;
+}

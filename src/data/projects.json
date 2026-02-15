@@ -1,0 +1,137 @@
+[
+    {
+        "title": "AI-Powered Ecommerce Platform - Customer Portal",
+        "role": "Full Stack Developer",
+        "year": "2026",
+        "summary": "Developed an AI-powered ecommerce platform integrated with voice shopping assistant, chatbot, and content moderation for fast and intelligent shopping experience.",
+        "technologies": [
+            { "name": "HTML", "icon": "html", "color": "#E34F26" },
+            { "name": "Bootstrap", "icon": "bootstrap", "color": "#563D7C" },
+            { "name": "Javascript", "icon": "javascript", "color": "#F7DF1E" },
+            { "name": "Django", "icon": "django", "color": "#092E20" },
+            { "name": "MySQL", "icon": "mysql", "color": "#4479A1" },
+            { "name": "SpaCy", "icon": "spacy", "color": "#09A3D5" }
+        ],
+        "image": "customer-portal.png",
+        "link": "https://shop.gfmic.ph/"
+    },
+    {
+        "title": "AI-Powered Ecommerce Platform - Seller Portal",
+        "role": "Full Stack Developer",
+        "year": "2026",
+        "summary": "Developed an AI-powered ecommerce platform integrated with voice shopping assistant, chatbot, and content moderation for fast and intelligent shopping experience.",
+        "technologies": [
+            { "name": "HTML", "icon": "html", "color": "#E34F26" },
+            { "name": "Bootstrap", "icon": "bootstrap", "color": "#563D7C" },
+            { "name": "Javascript", "icon": "javascript", "color": "#F7DF1E" },
+            { "name": "Django", "icon": "django", "color": "#092E20" },
+            { "name": "MySQL", "icon": "mysql", "color": "#4479A1" },
+            { "name": "SpaCy", "icon": "spacy", "color": "#09A3D5" }
+        ],
+        "image": "seller-portal.png",
+        "link": "https://seller.shop.gfmic.ph/"
+    },
+    {
+        "title": "BITBo Portal",
+        "role": "Lead Developer",
+        "year": "2025",
+        "summary": "Developed a web-based portal for the BITBo - Barangay IT Robot to showcase its features and capabilities, and to provide a platform for LGUs to request for BITBO downloadable.",
+        "technologies": [
+            { "name": "HTML", "icon": "html", "color": "#E34F26" },
+            { "name": "Bootstrap", "icon": "bootstrap", "color": "#563D7C" },
+            { "name": "Javascript", "icon": "javascript", "color": "#F7DF1E" },
+            { "name": "Django", "icon": "django", "color": "#092E20" },
+            { "name": "MySQL", "icon": "mysql", "color": "#4479A1" }
+        ],
+        "image": "bitbo-portal.png",
+        "link": "https://bitbo.gfmic.ph/"
+    },
+    {
+        "title": "Portfolio Website",
+        "role": "Full Stack Developer",
+        "year": "2026",
+        "summary": "Developed a responsive portfolio website showcasing my projects and skills.",
+        "technologies": [
+            { "name": "React", "icon": "react", "color": "#61DAFB" },
+            { "name": "Tailwind CSS", "icon": "tailwind", "color": "#1572B6" },
+            { "name": "JavaScript", "icon": "javascript", "color": "#F7DF1E" }
+        ],
+        "image": "portfolio.png",
+        "link": ""
+    },
+    {
+        "title": "Caffeinated - Online Ordering System",
+        "role": "Full Stack Developer",
+        "year": "2025",
+        "summary": "Developed a Point of Sale (POS) integrated with Food Ordering Portal, and Kitchen Display System,ensuring seamless communication from order placement to kitchen preparation and payment.",
+        "technologies": [
+            { "name": "HTML", "icon": "html", "color": "#E34F26" },
+            { "name": "Tailwind CSS", "icon": "tailwind", "color": "#1572B6" },
+            { "name": "Javascript", "icon": "javascript", "color": "#F7DF1E" },
+            { "name": "Laravel", "icon": "laravel", "color": "#FF2D20" },
+            { "name": "MySQL", "icon": "mysql", "color": "#4479A1" }
+        ],
+        "image": "oos.png",
+        "link": ""
+    },
+    {
+        "title": "Caffeinated - Point of Sale System",
+        "role": "Full Stack Developer",
+        "year": "2025",
+        "summary": "Developed a Point of Sale (POS) integrated with Food Ordering Portal, and Kitchen Display System,ensuring seamless communication from order placement to kitchen preparation and payment.",
+        "technologies": [
+            { "name": "HTML", "icon": "html", "color": "#E34F26" },
+            { "name": "Tailwind CSS", "icon": "tailwind", "color": "#1572B6" },
+            { "name": "Javascript", "icon": "javascript", "color": "#F7DF1E" },
+            { "name": "Laravel", "icon": "laravel", "color": "#FF2D20" },
+            { "name": "MySQL", "icon": "mysql", "color": "#4479A1" }
+        ],
+        "image": "pos.png",
+        "link": ""
+    },
+    {
+        "title": "Caffeinated - Kitchen Display System",
+        "role": "Full Stack Developer",
+        "year": "2025",
+        "summary": "Developed a Point of Sale (POS) integrated with Food Ordering Portal, and Kitchen Display System,ensuring seamless communication from order placement to kitchen preparation and payment.",
+        "technologies": [
+            { "name": "HTML", "icon": "html", "color": "#E34F26" },
+            { "name": "Tailwind CSS", "icon": "tailwind", "color": "#1572B6" },
+            { "name": "Javascript", "icon": "javascript", "color": "#F7DF1E" },
+            { "name": "Laravel", "icon": "laravel", "color": "#FF2D20" },
+            { "name": "MySQL", "icon": "mysql", "color": "#4479A1" }
+        ],
+        "image": "kds.png",
+        "link": ""
+    },
+    {
+        "title": "Golden Palate",
+        "role": "Full Stack Developer",
+        "year": "2024",
+        "summary": "Designed and developed an online restaurant reservation system, reducing manual booking efforts and improving customer convenience.",
+        "technologies": [
+            { "name": "HTML", "icon": "html", "color": "#E34F26" },
+            { "name": "Bootstrap", "icon": "bootstrap", "color": "#563D7C" },
+            { "name": "Javascript", "icon": "javascript", "color": "#F7DF1E" },
+            { "name": "ASP.Net", "icon": "asp.net", "color": "#512BD4" },
+            { "name": "MSSQL", "icon": "mssql", "color": "#4479A1" }
+        ],
+        "image": "golden-palate.png",
+        "link": ""
+    },
+    {
+        "title": "Sirenitel",
+        "role": "Backend Developer",
+        "year": "2024",
+        "summary": "Designed and developed a hotel reservation system, reducing manual booking efforts and improving customer convenience.",
+        "technologies": [
+            { "name": "HTML", "icon": "html", "color": "#E34F26" },
+            { "name": "Bootstrap", "icon": "bootstrap", "color": "#563D7C" },
+            { "name": "Javascript", "icon": "javascript", "color": "#F7DF1E" },
+            { "name": ".Net", "icon": "asp.net", "color": "#512BD4" },
+            { "name": "MSSQL", "icon": "mssql", "color": "#4479A1" }
+        ],
+        "image": "hms.png",
+        "link": ""
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "year": 2026,
+        "items": [
+            {
+                "title": "Software Engineer Intern",
+                "subtitle": "Elinnov Technologies, Inc.",
+                "year": "January 2026 - Present",
+                "description": "Contributing to web application development by implementing features and integrating APIs with React and ASP.NET.",
+                "type": "work",
+                "details": [
+                    "Developed and implemented new web application features using React, ASP.NET, and REST APIs.",
+                    "Translated business requirements into clean, scalable, and maintainable code.",
+                    "Improved system reliability by reducing bugs through testing, code reviews, and timely feature delivery."
+                ]
+            }
+        ]
+    },
+    {
+        "year": 2025,
+        "items": [
+            {
+                "title": "Full Stack Developer Intern",
+                "subtitle": "Codebility",
+                "year": "November 2025 - January 2026",
+                "description": "Contributed to end-to-end web application development using Next.js and Node.js.",
+                "type": "work",
+                "details": [
+                    "Developed responsive front-end interfaces and secure back-end APIs using Next.js and Node.js.",
+                    "Optimized database interactions and integrated features for improved system performance.",
+                    "Delivered scalable solutions on time, supporting faster deployment and enhanced user experience."
+                ]
+            },
+            {
+                "title": "Software Research Group",
+                "subtitle": "Developer",
+                "year": "March 2025 - Present",
+                "description": "Developing software solutions as a full-stack developer while contributing to university projects.",
+                "type": "organization",
+                "details": [
+                    "Built full-stack web applications using modern technologies to support university projects.",
+                    "Collaborated in an Agile development environment for efficient and iterative delivery.",
+                    "Contributed to initiatives that give back to the PUPQC community through software solutions."
+                ]
+            }
+        ]
+    },
+    {
+        "year": 2024,
+        "items": [
+            {
+                "title": "Commonwealth Information Technology Society",
+                "subtitle": "Research and Development Officer",
+                "year": "September 2024 - September 2025",
+                "description": "Contributed to a research project focused on applied software solutions.",
+                "type": "organization",
+                "details": [
+                    "Helped organize events and learning sessions for IT students.",
+                    "Contribute to the development of Patient Management System (PMS) for PUPQC clinic.",
+                    "Share knowledge about software development to the members through learning sessions and workshops."
+                ]
+            }
+        ]
+    },
+    {
+        "year": 2022,
+        "items": [
+            {
+                "title": "Bachelor of Science in Information Technology",
+                "subtitle": "Polytechnic University of the Philippines - QC",
+                "year": "September 2022 - October 2026",
+                "description": "Wrote my first line of code.",
+                "type": "education",
+                "details": [
+                    "Studied foundational topics in software and systems.",
+                    "Built academic projects using modern web technologies.",
+                    "Completed coursework in programming, databases, and networking."
+                ]
+            }
+        ]
+    }
+]

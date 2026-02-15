@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap");
+@import "tailwindcss";
+
+:root {
+	--font-display: "Sora", "Space Grotesk", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+	--font-sans: "Space Grotesk", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+	--font-mono: "JetBrains Mono", "Consolas", "Liberation Mono", monospace;
+	--accent-400: #a78bfa;
+	--accent-500: #7c3aed;
+	--accent-600: #6d28d9;
+	--accent-700: #5b21b6;
+	--ink-100: #f5f3ff;
+	--ink-200: #d7cff8;
+	--ink-500: #9b90c8;
+}
+
+body {
+	font-family: var(--font-sans);
+	margin: 0;
+	color: var(--ink-100);
+	background:
+		radial-gradient(1100px circle at 10% -10%, rgba(124, 58, 237, 0.35) 0%, rgba(124, 58, 237, 0) 60%),
+		radial-gradient(900px circle at 100% 0%, rgba(91, 33, 182, 0.4) 0%, rgba(91, 33, 182, 0) 55%),
+		linear-gradient(180deg, #05040a 0%, #0b0a16 100%);
+	-webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+	font-family: var(--font-display);
+}
+
+.font-mono {
+	font-family: var(--font-mono);
+}

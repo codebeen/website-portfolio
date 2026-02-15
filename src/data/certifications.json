@@ -1,0 +1,90 @@
+[
+    {
+        "title": "Foundational C# with Microsoft",
+        "issuer": "FreeCodeCamp",
+        "date": "January 2026",
+        "url": "https://www.freecodecamp.org/certification/darben/foundational-c-sharp-with-microsoft",
+        "glowStart": -57.52880770915152,
+        "image": "foundational-csharp.png"
+    },
+    {
+        "title": "JavaScript Essentials 1",
+        "issuer": "Cisco Networking Academy",
+        "date": "November 2025",
+        "url": "/javascript-essentials-1.pdf",
+        "glowStart": -57.52880770915152,
+        "image": "js-essentials-1.png"
+    },
+    {
+        "title": "Rest API (Intermediate)",
+        "issuer": "HackerRank",
+        "date": "November 2025",
+        "url": "https://www.hackerrank.com/certificates/a7a65a783296",
+        "glowStart": 91.02984891580844,
+        "image": "rest-api.png"
+    },
+    {
+        "title": "SQL (Intermediate)",
+        "issuer": "HackerRank",
+        "date": "October 2025",
+        "url": "https://www.hackerrank.com/certificates/ee97bd04a62f",
+        "glowStart": -40.5,
+        "image": "sql-intermediate.png"
+    },
+    {
+        "title": "Google Prompting Essentials",
+        "issuer": "Google",
+        "date": "December 2025",
+        "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/82ZQRQWY40T0",
+        "glowStart": -57.52880770915152,
+        "image": "google-prompt.png"
+    },
+    {
+        "title": "SQL (Basic)",
+        "issuer": "HackerRank",
+        "date": "October 2025",
+        "url": "https://www.hackerrank.com/certificates/38c8a24543cc",
+        "glowStart": -40.5,
+        "image": "sql-basic.png"
+    },
+    {
+        "title": "Play It Safe: Manage Security Risks",
+        "issuer": "Google",
+        "date": "November 2025",
+        "url": "https://www.coursera.org/account/accomplishments/verify/TDG56HG4JJCW",
+        "glowStart": -57.52880770915152,
+        "image": "play-it-safe.png"
+    },
+    {
+        "title": "Foundations of Cybersecurity",
+        "issuer": "Google",
+        "date": "July 2025",
+        "url": "https://www.coursera.org/account/accomplishments/records/7V4Z30FJ389B",
+        "glowStart": -40.5,
+        "image": "foundation-cybersec.png"
+    },
+    {
+        "title": "CS406: Information Security",
+        "issuer": "Saylor Academy",
+        "date": "March 2025",
+        "url": "https://learn.saylor.org/admin/tool/certificate/index.php?code=7847338727DL",
+        "glowStart": -40.5,
+        "image": "saylor.png"
+    },
+    {
+        "title": "PUPQC - Certified Associate in Application Defense (PUP-CAAD)",
+        "issuer": "PUPQC",
+        "date": "June 2025",
+        "url": "https://badgr.com/public/assertions/pJs0SEleTKSG-CqrYkFb1g",
+        "glowStart": -40.5,
+        "image": "caad.png"
+    },
+    {
+        "title": "mabl Skills Certification: Foundations",
+        "issuer": "mabl",
+        "date": "June 2025",
+        "url": "https://verify.skilljar.com/c/vp4tyz28f2wb",
+        "glowStart": -40.5,
+        "image": "mabl.png"
+    }
+]
