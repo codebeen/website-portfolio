@@ -1,4 +1,4 @@
-function SectionDetailsLayout({ id, subtitle, title, description, button, children }) {
+function SectionDetailsLayout({ id, title, description, children }) {
     return (
         <div id={id} className="mx-auto max-w-6xl px-4 py-20">
             <div className="flex flex-wrap flex-col items-center justify-center gap-1">
