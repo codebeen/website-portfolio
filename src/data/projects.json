@@ -8,7 +8,7 @@
             { "name": "HTML", "icon": "html", "color": "#E34F26" },
             { "name": "Bootstrap", "icon": "bootstrap", "color": "#563D7C" },
             { "name": "Javascript", "icon": "javascript", "color": "#F7DF1E" },
-            { "name": "Django", "icon": "django", "color": "#092E20" },
+            { "name": "Django", "icon": "django", "color": "#0A5C36" },
             { "name": "MySQL", "icon": "mysql", "color": "#4479A1" },
             { "name": "SpaCy", "icon": "spacy", "color": "#09A3D5" }
         ],
@@ -24,7 +24,7 @@
             { "name": "HTML", "icon": "html", "color": "#E34F26" },
             { "name": "Bootstrap", "icon": "bootstrap", "color": "#563D7C" },
             { "name": "Javascript", "icon": "javascript", "color": "#F7DF1E" },
-            { "name": "Django", "icon": "django", "color": "#092E20" },
+            { "name": "Django", "icon": "django", "color": "#0A5C36" },
             { "name": "MySQL", "icon": "mysql", "color": "#4479A1" },
             { "name": "SpaCy", "icon": "spacy", "color": "#09A3D5" }
         ],
@@ -40,7 +40,7 @@
             { "name": "HTML", "icon": "html", "color": "#E34F26" },
             { "name": "Bootstrap", "icon": "bootstrap", "color": "#563D7C" },
             { "name": "Javascript", "icon": "javascript", "color": "#F7DF1E" },
-            { "name": "Django", "icon": "django", "color": "#092E20" },
+            { "name": "Django", "icon": "django", "color": "#0A5C36" },
             { "name": "MySQL", "icon": "mysql", "color": "#4479A1" }
         ],
         "image": "bitbo-portal.png",
@@ -57,7 +57,7 @@
             { "name": "JavaScript", "icon": "javascript", "color": "#F7DF1E" }
         ],
         "image": "portfolio.png",
-        "link": ""
+        "link": "https://darben.vercel.app/"
     },
     {
         "title": "Caffeinated - Online Ordering System",

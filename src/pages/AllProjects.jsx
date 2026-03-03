@@ -124,7 +124,7 @@ function AllProjects() {
                         >
                             <option className="bg-gray-900" value="">All Technologies</option>
                             <option className="bg-gray-900" value="asp.net">ASP.NET</option>
-                            <option className="bg-gray-900" value="csharp">C#</option>
+                            {/* <option className="bg-gray-900" value="csharp">C#</option> */}
                             <option className="bg-gray-900" value="django">Django</option>
                             <option className="bg-gray-900" value="javascript">JavaScript</option>
                             <option className="bg-gray-900" value="laravel">Laravel</option>
