@@ -143,8 +143,8 @@
             { "name": "HTML", "icon": "html", "color": "#E34F26" },
             { "name": "Bootstrap", "icon": "bootstrap", "color": "#563D7C" },
             { "name": "Javascript", "icon": "javascript", "color": "#F7DF1E" },
-            { "name": ".Net", "icon": "asp.net", "color": "#512BD4" },
-            { "name": "MSSQL", "icon": "mssql", "color": "#4479A1" }
+            { "name": "Django", "icon": "django", "color": "#0A5C36" },
+            { "name": "MySQL", "icon": "mysql", "color": "#4479A1" }
         ],
         "image": "hanapbuhai.png",
         "link": "https://hanapbuhai.onrender.com/"
