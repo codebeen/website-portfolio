@@ -35,6 +35,20 @@
         "glowStart": 52.77786857893223
     },
     {
+        "category": "framework",
+        "name": "Bootstrap",
+        "icon": "SiBootstrap",
+        "color": "#563D7C",
+        "glowStart": 120.0
+    },
+    {
+        "category": "framework",
+        "name": "Next.js",
+        "icon": "SiNextdotjs",
+        "color": "#000000",
+        "glowStart": -120.0
+    },
+    {
         "category": "language",
         "name": "C#",
         "icon": "SiDotnet",
