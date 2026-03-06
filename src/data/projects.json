@@ -32,6 +32,21 @@
         "link": "https://seller.shop.gfmic.ph/"
     },
     {
+        "title": "HanapBuhAI",
+        "role": "Full Stack Developer",
+        "year": "2025",
+        "summary": "Designed and developed a job search portal with AI-powered job matching and resume generator.",
+        "technologies": [
+            { "name": "HTML", "icon": "html", "color": "#E34F26" },
+            { "name": "Bootstrap", "icon": "bootstrap", "color": "#563D7C" },
+            { "name": "Javascript", "icon": "javascript", "color": "#F7DF1E" },
+            { "name": "Django", "icon": "django", "color": "#0A5C36" },
+            { "name": "MySQL", "icon": "mysql", "color": "#4479A1" }
+        ],
+        "image": "hanapbuhai.png",
+        "link": "https://hanapbuhai.onrender.com/"
+    },
+    {
         "title": "BITBo Portal",
         "role": "Lead Developer",
         "year": "2025",
@@ -133,20 +148,5 @@
         ],
         "image": "hms.png",
         "link": ""
-    },
-    {
-        "title": "HanapBuhAI",
-        "role": "Full Stack Developer",
-        "year": "2025",
-        "summary": "Designed and developed a job search portal with AI-powered job matching and resume generator.",
-        "technologies": [
-            { "name": "HTML", "icon": "html", "color": "#E34F26" },
-            { "name": "Bootstrap", "icon": "bootstrap", "color": "#563D7C" },
-            { "name": "Javascript", "icon": "javascript", "color": "#F7DF1E" },
-            { "name": "Django", "icon": "django", "color": "#0A5C36" },
-            { "name": "MySQL", "icon": "mysql", "color": "#4479A1" }
-        ],
-        "image": "hanapbuhai.png",
-        "link": "https://hanapbuhai.onrender.com/"
     }
 ]
