@@ -48,6 +48,8 @@
         "color": "#000000",
         "glowStart": -120.0
     },
+
+
     {
         "category": "language",
         "name": "C#",
@@ -69,6 +71,8 @@
         "color": "#F7DF1E",
         "glowStart": -80.0
     },
+
+
     {
         "category": "database",
         "name": "MySQL",
@@ -91,6 +95,8 @@
         "color": "#4169E1",
         "glowStart": 33.69392894796562
     },
+
+
     {
         "category": "tools",
         "name": "Docker",
@@ -123,5 +129,17 @@
         "name": "Jira",
         "icon": "SiJira",
         "color": "#0052CC"
+    },
+    {
+        "category": "tools",
+        "name": "Confluence",
+        "icon": "SiConfluence",
+        "color": "#172B4D"
+    },
+    {
+        "category": "tools",
+        "name": "Trello",
+        "icon": "SiTrello",
+        "color": "#0079BF"
     }
 ]
