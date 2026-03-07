@@ -59,7 +59,7 @@
             { "name": "MySQL", "icon": "mysql", "color": "#4479A1" }
         ],
         "image": "bitbo-portal.png",
-        "link": ""
+        "link": "https://bitbo.gfmic.ph/"
     },
     {
         "title": "Portfolio Website",
