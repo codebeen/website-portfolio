@@ -87,7 +87,7 @@
             { "name": "MySQL", "icon": "mysql", "color": "#4479A1" }
         ],
         "image": "oos.png",
-        "link": ""
+        "link": "https://oos-caffeinated.up.railway.app/"
     },
     {
         "title": "Caffeinated - Point of Sale System",
@@ -102,7 +102,7 @@
             { "name": "MySQL", "icon": "mysql", "color": "#4479A1" }
         ],
         "image": "pos.png",
-        "link": ""
+        "link": "https://pos-caffeinated.up.railway.app/"
     },
     {
         "title": "Caffeinated - Kitchen Display System",
@@ -117,7 +117,7 @@
             { "name": "MySQL", "icon": "mysql", "color": "#4479A1" }
         ],
         "image": "kds.png",
-        "link": ""
+        "link": "https://kds-caffeinated.up.railway.app/"
     },
     {
         "title": "Golden Palate",
