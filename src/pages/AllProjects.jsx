@@ -147,7 +147,7 @@ function AllProjects() {
                         </svg>
                     </div>
                 </div>
-                <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                <div className="mt-10 grid gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3">
                     {pagedProjects.map((project, index) => (
                         <ProjectCard key={project.title} project={project} delay={200 * (index + 1)} />
                     ))}

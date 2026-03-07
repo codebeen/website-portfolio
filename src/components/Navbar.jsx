@@ -28,7 +28,7 @@ function Navbar() {
         <>
             <nav
                 className={`fixed left-0 right-0 z-30 px-4 transition-all duration-700 ease-in-out ${
-                    isScrolled ? "top-8" : "top-0 py-3"
+                    isScrolled ? "top-2 sm:top-8" : "top-0 py-3"
                 }`}
             >
                 <div
@@ -96,7 +96,7 @@ function Navbar() {
                         onClick={handleToggleMenu}
                         aria-expanded={isMenuOpen}
                         aria-controls="mobile-nav"
-                        className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/15 text-white transition hover:border-white/40 md:hidden"
+                        className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/30 bg-white/5 text-white transition hover:border-white/40 md:hidden"
                     >
                         <span className="sr-only">Toggle navigation</span>
                         {isMenuOpen ? (

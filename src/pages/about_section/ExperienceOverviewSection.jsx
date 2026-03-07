@@ -4,7 +4,7 @@ import experiences from "../../data/experiences.json";
 
 function ExperienceOverviewSection() {
     return (
-        <div className="mt-16">
+        <div className="mt-12 sm:mt-16">
             <h3 className="font-display text-2xl text-white">
                 Professional Journey
             </h3>

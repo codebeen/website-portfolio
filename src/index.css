@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap");
 @import "tailwindcss";
 
+html {
+	overflow-x: hidden;
+}
+
 :root {
 	--font-display: "Sora", "Space Grotesk", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 	--font-sans: "Space Grotesk", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
@@ -17,6 +21,7 @@
 body {
 	font-family: var(--font-sans);
 	margin: 0;
+	overflow-x: hidden;
 	color: var(--ink-100);
 	background:
 		radial-gradient(1100px circle at 10% -10%, rgba(124, 58, 237, 0.35) 0%, rgba(124, 58, 237, 0) 60%),

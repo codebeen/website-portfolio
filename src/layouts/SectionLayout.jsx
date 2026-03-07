@@ -3,7 +3,7 @@ function SectionLayout({ id, subtitle, title, description, button, children }) {
         <section
             id={id}
             data-aos="fade-up"
-            className="mx-auto max-w-6xl px-4 py-20"
+            className="mx-auto max-w-6xl px-4 sm:px-6 py-12 sm:py-16 lg:py-20"
         >
             <div className="flex flex-wrap items-center justify-between gap-6">
                 <div>
@@ -12,7 +12,7 @@ function SectionLayout({ id, subtitle, title, description, button, children }) {
                             {subtitle}
                         </p>
                     )}
-                    <h2 className="font-display mt-3 text-3xl text-white sm:text-4xl">
+                    <h2 className="font-display mt-3 text-2xl text-white sm:text-3xl lg:text-4xl">
                         {title}
                     </h2>
                     {description && (

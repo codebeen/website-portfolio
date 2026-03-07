@@ -23,7 +23,7 @@ function MainLayout() {
     return (
         <div className="min-h-screen">
             <Navbar />
-            <main className="py-24">
+            <main className="py-16 sm:py-20 lg:py-24">
                 <Outlet />
             </main>
             <Footer />

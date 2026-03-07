@@ -1,6 +1,6 @@
 function ContactSection() {
     return (
-        <div className="mt-16 frame text-center">
+        <div className="mt-12 sm:mt-16 frame text-center">
             <h3 className="font-display text-2xl text-white">
                 Let's Work Together
             </h3>

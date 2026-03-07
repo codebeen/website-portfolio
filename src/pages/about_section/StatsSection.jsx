@@ -11,7 +11,7 @@ function StatsSection() {
     const certificationCount = certifications.length;
 
     return (
-        <div className="mt-16 grid gap-6 sm:grid-cols-4">
+        <div className="mt-12 sm:mt-16 grid gap-4 sm:gap-6 grid-cols-2 sm:grid-cols-4">
             <Summary
                 total={totalProjects}
                 title="Projects Completed"

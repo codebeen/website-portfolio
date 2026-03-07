@@ -6,9 +6,9 @@ import LinkedinLink from '../../components/social_links/LinkedinLink.jsx';
 
 function ProfileSection() {
     return (
-        <div className="reveal mt-10 grid gap-8 lg:grid-cols-[300px_1fr]">
-            <div className="flex justify-center lg:justify-start">
-                <div className="relative h-64 w-64 shrink-0 overflow-hidden rounded-2xl ring-2 ring-violet-500/30 ring-offset-4 ring-offset-black">
+        <div className="reveal mt-10 grid gap-8 md:grid-cols-[240px_1fr] lg:grid-cols-[300px_1fr]">
+            <div className="flex justify-center md:justify-start">
+                <div className="relative h-48 w-48 sm:h-56 sm:w-56 md:h-60 md:w-60 lg:h-64 lg:w-64 shrink-0 overflow-hidden rounded-2xl ring-2 ring-violet-500/30 ring-offset-4 ring-offset-black">
                     <img
                         src={avatar}
                         alt="Darben"
@@ -20,7 +20,7 @@ function ProfileSection() {
             <div className="space-y-6">
                 <div>
                     <h2
-                        className="font-display text-4xl text-white"
+                        className="font-display text-3xl sm:text-4xl text-white"
                         data-aos="fade-up"
                         data-aos-delay={100}
                     >

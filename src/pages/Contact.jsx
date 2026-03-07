@@ -35,12 +35,12 @@ function Contact() {
     return (
         <>
             <SectionLayout id="contact">
-                <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
+                <div className="grid gap-6 sm:gap-8 lg:grid-cols-[1.1fr_0.9fr]">
                     <div data-aos="fade-up" delay={100}>
                         <p className="text-xs uppercase tracking-[0.3em] text-white/50">
                             Contact
                         </p>
-                        <h2 className="font-display mt-3 text-3xl text-white sm:text-4xl">
+                        <h2 className="font-display mt-3 text-2xl text-white sm:text-3xl lg:text-4xl">
                             Let us build the next release together.
                         </h2>
                         <p className="mt-4 text-base text-white/70">

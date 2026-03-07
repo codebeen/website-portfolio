@@ -85,7 +85,7 @@ function AllCertifications() {
                         className="w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white placeholder:text-white/50 outline-none transition focus:border-white/30"
                     />
                 </div>
-                <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                <div className="mt-10 grid gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3">
                     {pagedCertifications.map((certification, index) => (
                         <CertificationWithImage
                             key={certification.title}
