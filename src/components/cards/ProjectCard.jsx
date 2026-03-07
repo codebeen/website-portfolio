@@ -1,9 +1,12 @@
+import { useState } from "react";
 import { HiPhotograph } from "react-icons/hi";
 import { FiExternalLink } from "react-icons/fi";
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
+import ImageLightbox from "../ImageLightbox";
 
 function ProjectCard({ project, delay = 200 }) {
+    const [lightboxOpen, setLightboxOpen] = useState(false);
     const imageSrc = project.image
         ? project.image.startsWith("http")
             ? project.image
@@ -11,7 +14,6 @@ function ProjectCard({ project, delay = 200 }) {
                   .href
         : "";
     const handleCardClick = (e) => {
-        // Only navigate if clicking the card itself, not the button
         if (project.link && !e.target.closest("a")) {
             window.open(project.link, "_blank", "noopener,noreferrer");
         }
@@ -19,6 +21,13 @@ function ProjectCard({ project, delay = 200 }) {
 
     return (
         <>
+            {lightboxOpen && imageSrc && (
+                <ImageLightbox
+                    src={imageSrc}
+                    alt={`${project.title} preview`}
+                    onClose={() => setLightboxOpen(false)}
+                />
+            )}
             <article
                 key={project.title}
                 className={`group flex h-full flex-col border border-white/20 rounded-2xl transition-all duration-300 hover:shadow-lg hover:-translate-y-2 hover:border-white/40 hover:bg-white/5 ${project.link ? "cursor-pointer" : "cursor-default"}`}
@@ -32,8 +41,9 @@ function ProjectCard({ project, delay = 200 }) {
                             <img
                                 src={imageSrc}
                                 alt={`${project.title} preview`}
-                                className="h-full w-full object-cover transition duration-500 group-hover:scale-110"
+                                className="h-full w-full object-cover transition duration-500 group-hover:scale-110 cursor-zoom-in"
                                 loading="lazy"
+                                onClick={(e) => { e.stopPropagation(); setLightboxOpen(true); }}
                             />
                             {project.link && (
                                 <a

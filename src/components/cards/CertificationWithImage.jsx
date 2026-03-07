@@ -1,6 +1,9 @@
+import { useState } from "react";
 import { HiPhotograph } from "react-icons/hi";
+import ImageLightbox from "../ImageLightbox";
 
 function CertificationWithImage({ certification, delay = 200 }) {
+    const [lightboxOpen, setLightboxOpen] = useState(false);
     const imageSrc = certification.image
         ? certification.image.startsWith("http")
             ? certification.image
@@ -11,7 +14,6 @@ function CertificationWithImage({ certification, delay = 200 }) {
         : "";
 
     const handleCardClick = (e) => {
-        // Only navigate if clicking the card itself, not the button
         if (certification.url && !e.target.closest("a")) {
             window.open(certification.url, "_blank", "noopener,noreferrer");
         }
@@ -19,6 +21,13 @@ function CertificationWithImage({ certification, delay = 200 }) {
 
     return (
         <>
+            {lightboxOpen && imageSrc && (
+                <ImageLightbox
+                    src={imageSrc}
+                    alt={`${certification.title} certificate`}
+                    onClose={() => setLightboxOpen(false)}
+                />
+            )}
             <article
                 key={certification.title}
                 className={`group flex h-full flex-col border border-white/20 rounded-2xl transition-all duration-300 hover:shadow-lg hover:-translate-y-2 hover:border-white/40 ${certification.url ? "cursor-pointer" : "cursor-default"}`}
@@ -31,8 +40,9 @@ function CertificationWithImage({ certification, delay = 200 }) {
                         <img
                             src={imageSrc}
                             alt={`${certification.title} certificate`}
-                            className="h-full w-full object-cover transition duration-500 group-hover:scale-110"
+                            className="h-full w-full object-cover transition duration-500 group-hover:scale-110 cursor-zoom-in"
                             loading="lazy"
+                            onClick={(e) => { e.stopPropagation(); setLightboxOpen(true); }}
                         />
                     ) : (
                         <div className="h-full w-full flex flex-col items-center justify-center gap-3">

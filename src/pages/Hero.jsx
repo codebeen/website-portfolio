@@ -15,9 +15,11 @@ function Home () {
         >
             <div className="grid gap-10 lg:grid-cols-1 lg:items-center w-full">
                 <div className="reveal">
-                    <span className="rounded-full bg-[var(--accent-400)]/20 px-3 py-1 text-xs font-semibold text-[var(--accent-400)]">
-                        Open to work!
-                    </span>
+                    <div className="flex justify-center sm:justify-start sm:mb-0 mb-5">
+                        <span className="rounded-full bg-[var(--accent-400)]/20 px-3 py-1 text-xs font-semibold text-[var(--accent-400)]">
+                            Open to work!
+                        </span>
+                    </div>
                     <div className="flex flex-col-reverse sm:flex-row sm:items-center sm:justify-between w-full gap-6 sm:gap-4">
                         <div className="min-w-0">
                             <h1 className="font-display mt-4 text-3xl leading-tight text-white sm:text-5xl lg:text-6xl">
