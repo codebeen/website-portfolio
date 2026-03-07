@@ -1,92 +1,27 @@
-# Portfolio Website
+# My Portfolio
 
-Personal portfolio website built with React and Vite. It highlights projects, certifications, experience, and contact links.
+Hi, I'm **Darben Lamonte** — an aspiring Software Engineer and Full Stack Developer. This is my personal portfolio where I share my work, background, and the things I've built and learned along the way. I specialize in backend systems, API development, and microservices-based architectures.
 
 ## Live Demo
 
-- [Add live URL]
+- [https://darben.vercel.app/](https://darben.vercel.app/)
 
 ## Preview
 
 ![Portfolio preview](src/assets/projects/portfolio.png)
 
-## Features
+## What's Inside
 
-- Project and certification galleries
-- Experience timeline and skills overview
-- Smooth section navigation
-- Scroll-based animations
-- Responsive layout
+- **Home** — A quick intro of who I am and what I do
+- **About** — My background, core skills, and professional journey
+- **Projects** — Projects I've built, with details on the tech I used
+- **Experience** — Internships, roles, and contributions I've been part of
+- **Certifications** — Certifications I've earned, with images and verification links
+- **Skills** — The technologies and tools I work with
+- **Contact** — How to reach me for collaboration or opportunities
 
 ## Tech Stack
 
 - React 19
 - Vite 7
 - Tailwind CSS 4
-- React Router
-- AOS (Animate On Scroll)
-- React Scroll
-- React Icons
-
-## Getting Started
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Run the dev server:
-
-```bash
-npm run dev
-```
-
-Build for production:
-
-```bash
-npm run build
-```
-
-Preview the production build:
-
-```bash
-npm run preview
-```
-
-## Project Structure
-
-```
-public/
-src/
-  assets/
-  components/
-    cards/
-  data/
-  layouts/
-  pages/
-  App.jsx
-  App.css
-  index.css
-  main.jsx
-```
-
-## Content Management
-
-- Data lives in src/data as JSON.
-- Pages are in src/pages and composed with layouts from src/layouts.
-- Card components live in src/components/cards.
-
-## Configuration Notes
-
-- AOS is initialized in src/App.jsx.
-- Section navigation uses React Scroll.
-
-## Deployment
-
-- Build output is in dist/.
-- Deploy with any static host (Netlify, Vercel, GitHub Pages).
-
-## License
-
-All rights reserved.
