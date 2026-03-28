@@ -13,11 +13,6 @@ function ProjectCard({ project, delay = 200 }) {
             : new URL(`../../assets/projects/${project.image}`, import.meta.url)
                   .href
         : "";
-    const handleCardClick = (e) => {
-        if (project.link && !e.target.closest("a")) {
-            window.open(project.link, "_blank", "noopener,noreferrer");
-        }
-    };
 
     return (
         <>
@@ -30,8 +25,7 @@ function ProjectCard({ project, delay = 200 }) {
             )}
             <article
                 key={project.title}
-                className={`group flex h-full flex-col border border-white/20 rounded-2xl transition-all duration-300 hover:shadow-lg hover:-translate-y-2 hover:border-white/40 hover:bg-white/5 ${project.link ? "cursor-pointer" : "cursor-default"}`}
-                onClick={handleCardClick}
+                className={`group flex h-full flex-col border border-white/20 rounded-2xl transition-all duration-300 hover:shadow-lg hover:-translate-y-2 hover:border-white/40 hover:bg-white/5`}
                 data-aos="fade-up"
                 data-aos-delay={delay}
             >
