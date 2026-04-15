@@ -13,7 +13,7 @@
             { "name": "SpaCy", "icon": "spacy", "color": "#09A3D5" }
         ],
         "image": "customer-portal.png",
-        "link": "https://shop.gfmic.ph/"
+        "link": ""
     },
     {
         "title": "AI-Powered Ecommerce Platform - Seller Portal",
@@ -29,7 +29,7 @@
             { "name": "SpaCy", "icon": "spacy", "color": "#09A3D5" }
         ],
         "image": "seller-portal.png",
-        "link": "https://seller.shop.gfmic.ph/"
+        "link": ""
     },
     {
         "title": "HanapBuhAI",
