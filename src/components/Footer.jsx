@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-
+import { Link, NavLink } from "react-router-dom";
 
 function Footer() {
     return (
@@ -13,68 +12,80 @@ function Footer() {
                         >
                             Darben Lamonte
                         </Link>
-                        <p class="text-sm text-neutral-400 max-w-md">
+                        <p className="text-sm text-neutral-400 max-w-md">
                             Transforming ideas into powerful digital solutions.
                             Software Engineer specializing in AI-driven systems,
                             backend development, and scalable software
                             architecture.
                         </p>
                     </div>
-                    <div className="space-y-4">
+                    <nav className="space-y-4" aria-label="Footer navigation">
                         <h3 className="text-sm font-semibold text-white uppercase tracking-wider">
                             Navigation
                         </h3>
                         <ul className="space-y-2">
                             <li>
-                                <Link
+                                <NavLink
                                     to="/"
-                                    className="text-sm text-neutral-400 hover:text-white transition-colors"
+                                    className={({ isActive }) =>
+                                        isActive
+                                            ? "text-sm text-white transition-colors"
+                                            : "text-sm text-neutral-400 hover:text-white transition-colors"
+                                    }
                                 >
                                     Home
-                                </Link>
+                                </NavLink>
                             </li>
                             <li>
-                                <Link
+                                <NavLink
                                     to="/about"
-                                    className="text-sm text-neutral-400 hover:text-white transition-colors"
+                                    className={({ isActive }) =>
+                                        isActive
+                                            ? "text-sm text-white transition-colors"
+                                            : "text-sm text-neutral-400 hover:text-white transition-colors"
+                                    }
                                 >
                                     About
-                                </Link>
+                                </NavLink>
                             </li>
                             <li>
-                                <Link
-                                    className="text-sm text-neutral-400 hover:text-white transition-colors"
+                                <NavLink
                                     to="/projects"
+                                    className={({ isActive }) =>
+                                        isActive
+                                            ? "text-sm text-white transition-colors"
+                                            : "text-sm text-neutral-400 hover:text-white transition-colors"
+                                    }
                                 >
                                     Projects
-                                </Link>
+                                </NavLink>
                             </li>
                             <li>
-                                <Link
-                                    className="text-sm text-neutral-400 hover:text-white transition-colors"
-                                    to="/experience"
-                                >
-                                    Experience
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    className="text-sm text-neutral-400 hover:text-white transition-colors"
+                                <NavLink
                                     to="/certifications"
+                                    className={({ isActive }) =>
+                                        isActive
+                                            ? "text-sm text-white transition-colors"
+                                            : "text-sm text-neutral-400 hover:text-white transition-colors"
+                                    }
                                 >
                                     Certifications
-                                </Link>
+                                </NavLink>
                             </li>
                             <li>
-                                <Link
-                                    className="text-sm text-neutral-400 hover:text-white transition-colors"
+                                <NavLink
                                     to="/contact"
+                                    className={({ isActive }) =>
+                                        isActive
+                                            ? "text-sm text-white transition-colors"
+                                            : "text-sm text-neutral-400 hover:text-white transition-colors"
+                                    }
                                 >
                                     Contact
-                                </Link>
+                                </NavLink>
                             </li>
                         </ul>
-                    </div>
+                    </nav>
                     <div className="space-y-4">
                         <h3 className="text-sm font-semibold text-white uppercase tracking-wider">
                             Connect
@@ -95,10 +106,10 @@ function Footer() {
                                         viewBox="0 0 24 24"
                                         fill="none"
                                         stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        class="lucide lucide-github h-5 w-5 text-neutral-400 group-hover:text-white transition-colors"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="lucide lucide-github h-5 w-5 text-neutral-400 group-hover:text-white transition-colors"
                                         aria-hidden="true"
                                     >
                                         <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
@@ -124,10 +135,10 @@ function Footer() {
                                         viewBox="0 0 24 24"
                                         fill="none"
                                         stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        class="lucide lucide-linkedin h-5 w-5 text-neutral-400 group-hover:text-white transition-colors"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="lucide lucide-linkedin h-5 w-5 text-neutral-400 group-hover:text-white transition-colors"
                                         aria-hidden="true"
                                     >
                                         <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
@@ -159,10 +170,10 @@ function Footer() {
                                         viewBox="0 0 24 24"
                                         fill="none"
                                         stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        class="lucide lucide-mail h-5 w-5 text-neutral-400 group-hover:text-white transition-colors"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="lucide lucide-mail h-5 w-5 text-neutral-400 group-hover:text-white transition-colors"
                                         aria-hidden="true"
                                     >
                                         <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
@@ -194,10 +205,10 @@ function Footer() {
                                         viewBox="0 0 24 24"
                                         fill="none"
                                         stroke="currentColor"
-                                        stroke-width="2"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        class="lucide lucide-file-text h-5 w-5 text-neutral-400 group-hover:text-white transition-colors"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        className="lucide lucide-file-text h-5 w-5 text-neutral-400 group-hover:text-white transition-colors"
                                         aria-hidden="true"
                                     >
                                         <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path>
