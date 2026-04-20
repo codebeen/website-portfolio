@@ -10,7 +10,8 @@
             { "name": "Javascript", "icon": "javascript", "color": "#F7DF1E" },
             { "name": "Django", "icon": "django", "color": "#0A5C36" },
             { "name": "MySQL", "icon": "mysql", "color": "#4479A1" },
-            { "name": "SpaCy", "icon": "spacy", "color": "#09A3D5" }
+            { "name": "SpaCy", "icon": "spacy", "color": "#09A3D5" },
+            { "name": "Docker", "icon": "docker", "color": "#2496ED" }
         ],
         "image": "customer-portal.png",
         "link": ""
@@ -26,7 +27,8 @@
             { "name": "Javascript", "icon": "javascript", "color": "#F7DF1E" },
             { "name": "Django", "icon": "django", "color": "#0A5C36" },
             { "name": "MySQL", "icon": "mysql", "color": "#4479A1" },
-            { "name": "SpaCy", "icon": "spacy", "color": "#09A3D5" }
+            { "name": "SpaCy", "icon": "spacy", "color": "#09A3D5" },
+            { "name": "Docker", "icon": "docker", "color": "#2496ED" }
         ],
         "image": "seller-portal.png",
         "link": ""
@@ -56,7 +58,8 @@
             { "name": "Bootstrap", "icon": "bootstrap", "color": "#563D7C" },
             { "name": "Javascript", "icon": "javascript", "color": "#F7DF1E" },
             { "name": "Django", "icon": "django", "color": "#0A5C36" },
-            { "name": "MySQL", "icon": "mysql", "color": "#4479A1" }
+            { "name": "MySQL", "icon": "mysql", "color": "#4479A1" },
+            { "name": "Docker", "icon": "docker", "color": "#2496ED" }
         ],
         "image": "bitbo-portal.png",
         "link": "https://bitbo.gfmic.ph/"
@@ -84,7 +87,8 @@
             { "name": "Tailwind CSS", "icon": "tailwind", "color": "#1572B6" },
             { "name": "Javascript", "icon": "javascript", "color": "#F7DF1E" },
             { "name": "Laravel", "icon": "laravel", "color": "#FF2D20" },
-            { "name": "MySQL", "icon": "mysql", "color": "#4479A1" }
+            { "name": "MySQL", "icon": "mysql", "color": "#4479A1" },
+            { "name": "Docker", "icon": "docker", "color": "#2496ED" }
         ],
         "image": "oos.png",
         "link": "https://oos-caffeinated.up.railway.app/"
@@ -99,7 +103,8 @@
             { "name": "Tailwind CSS", "icon": "tailwind", "color": "#1572B6" },
             { "name": "Javascript", "icon": "javascript", "color": "#F7DF1E" },
             { "name": "Laravel", "icon": "laravel", "color": "#FF2D20" },
-            { "name": "MySQL", "icon": "mysql", "color": "#4479A1" }
+            { "name": "MySQL", "icon": "mysql", "color": "#4479A1" },
+            { "name": "Docker", "icon": "docker", "color": "#2496ED" }
         ],
         "image": "pos.png",
         "link": "https://pos-caffeinated.up.railway.app/"
@@ -114,7 +119,8 @@
             { "name": "Tailwind CSS", "icon": "tailwind", "color": "#1572B6" },
             { "name": "Javascript", "icon": "javascript", "color": "#F7DF1E" },
             { "name": "Laravel", "icon": "laravel", "color": "#FF2D20" },
-            { "name": "MySQL", "icon": "mysql", "color": "#4479A1" }
+            { "name": "MySQL", "icon": "mysql", "color": "#4479A1" },
+            { "name": "Docker", "icon": "docker", "color": "#2496ED" }
         ],
         "image": "kds.png",
         "link": "https://kds-caffeinated.up.railway.app/"
