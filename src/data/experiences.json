@@ -3,6 +3,21 @@
         "year": 2026,
         "items": [
             {
+                "title": "Software Engineer",
+                "subtitle": "White Cloak Technologies, Inc.",
+                "year": "July 2026 - Present",
+                "description": "Software engineer building and maintaining web applications across the frontend and backend. I turn business requirements into reliable, maintainable software and work closely with the team to ship quality releases.",
+                "type": "work",
+                "details": [
+                    "Developed and implemented new web application features using modern web technologies.",
+                    "Translated business requirements into clean, scalable, and maintainable code.",
+                    "Improved system reliability by reducing bugs through testing, code reviews, and timely feature delivery.",
+                    "Designed and integrated RESTful APIs connecting the frontend with backend services and databases.",
+                    "Collaborated with teammates and stakeholders to clarify requirements, estimate work, and deliver on schedule.",
+                    "Maintained code quality through version control best practices, pull request reviews, and clear technical documentation."
+                ]
+            },
+            {
                 "title": "Software Engineer Intern",
                 "subtitle": "Elinnov Technologies, Inc.",
                 "year": "January 2026 - April 2026",
