@@ -10,12 +10,13 @@ import { Avatar } from "../../components/ui/Avatar.jsx";
 import { ProfileDescription } from "./components/ProfileDescription.jsx";
 import { Button } from "../../components/ui/Button.jsx";
 import { SocialLinks } from "../../components/ui/SocialLinks.jsx";
+import { SECTION_SPACING } from "../../components/layouts/SectionLayout.jsx";
 
 function HeroSection () {
     return (
         <section
             id="hero"
-            className="mx-auto max-w-7xl px-4 sm:px-6 flex items-center py-12 sm:py-20 lg:py-50"
+            className={`${SECTION_SPACING} flex items-center scroll-mt-24`}
         >
             <div className="w-full flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
                 <div className="flex-1 w-full text-center lg:text-left">

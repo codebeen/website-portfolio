@@ -1,11 +1,14 @@
 import { BackButton } from "../ui/BackButton";
 
+export const SECTION_SPACING =
+    "mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24";
+
 function SectionLayout({ id, subtitle, title, description, button, children, backButton = false, isCentered = false }) {
     return (
         <section
             id={id}
             data-aos="fade-up"
-            className={`mx-auto max-w-7xl py-30 px-5 ${backButton ? "lg:py-10" : "lg:py-30"}`}
+            className={`${SECTION_SPACING} scroll-mt-24`}
         >
             {backButton && <BackButton onClick={() => window.history.back()} />}
             <div

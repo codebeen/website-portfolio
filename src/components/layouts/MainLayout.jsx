@@ -23,7 +23,7 @@ function MainLayout() {
     return (
         <div className="dark">
             <Navbar />
-            <main className="py-16 sm:py-20 lg:py-24">
+            <main className="pt-16 sm:pt-20 lg:pt-24">
                 <Outlet />
             </main>
             <Footer />
